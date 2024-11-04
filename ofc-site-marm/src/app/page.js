@@ -19,11 +19,11 @@ export default function Home() {
       <Link href={'./contatos'} className="link-contatos"><button className="btn">CONTATOS</button></Link>
     </div>
     
-      <div className="corpo">
+             <div className="corpo">
              <img src="/back.marm.jpg" alt="Descrição da imagem" className="back-marm"/>  
-           <img src="/row.png" alt="Descrição da imagem" className="row-marm"/>  
-    </div>
-    
+             <img src="/row.png" alt="Descrição da imagem" className="row-marm"/>  
+             </div>
+
 </section>
 )
 }
