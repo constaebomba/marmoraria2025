@@ -11,13 +11,10 @@
 --white:#ffffff;
 }
 
-
-
 body{
-box-sizing: border-box;
 margin: 0;
 padding: 0;
-
+background-image:url('./img/back.marm.jpg');
 }
 
 .head{
@@ -69,16 +66,10 @@ font-size: 17px;
 }
 
 .back-marm{
-opacity: 15%;
-width: 100%;
-height: auto;
-
 }
 
 .logo-marm{
 opacity: 5%;
-width: 500px;
-height: 190px;
 margin-bottom: -50px;
 margin-top: -50px;
 
@@ -87,7 +78,8 @@ margin-top: -50px;
 .corpo{
 align-items: center;
 justify-content: center;
-display: flex
+display: flex;
+opacity: 0.9;
 
 }    
 
@@ -96,17 +88,6 @@ display: flex
     padding: 0;
     align-items: center;
     justify-content: center;
-    display: flex;
-    position: relative;
-    opacity: 30%;
+    opacity: 0.9;
     
 }
-
-.row-marm{
-justify-content: center;
-align-items: center;
-display: flex;
-margin-top: 100px;
-position: absolute;
-}
-
