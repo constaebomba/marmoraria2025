@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+--black:#000;
+--dark:#212121;
+--gray4:#333333;
+--gray3:#3c3c3c;
+--gray2:#666666;
+--gray1:#a6a6a6;
+--gray0:#c8c8c8;
+--white:#ffffff;
+}
+
+
+
+body{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+.head{
+padding: 80px 20px;
+background-color: var(--gray3);
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+
+.tittle{
+color: var(--gray0);
+font-size: 80px;
+margin: 0;
+padding: 0;
+
+}
+
+.barra{
+padding: 20px 40px;
+background-color: var(--gray1);
+justify-content: center;
+align-items: center;
+display: flex;
+gap: 2.5rem;
+
+}
+
+.btn{
+    color: var(--white);
+    background-color: var(--gray1);
+border-radius: 20px;
+border: none;
+padding: 10px 40px;
+margin-bottom: -20px;
+margin-top: -20px;
+padding-top: 20px;
+padding-bottom: 20px;
+transition: 1s;
+font-family: 'Alegreya', sans-serif;
+font-weight: 500;
+font-size: 17px;
+}
+
+.btn:hover{
+    padding: 15px 55px;
+
+}
+
+.back-marm{
+opacity: 15%;
+width: 100%;
+height: auto;
+
+}
+
+.logo-marm{
+opacity: 5%;
+width: 500px;
+height: 190px;
+margin-bottom: -50px;
+margin-top: -50px;
+
+    }
+
+.corpo{
+align-items: center;
+justify-content: center;
+
+
+}    
+
+.back-marm{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    
+}
+
+.row-marm{
+justify-content: center;
+align-items: center;
+display: flex;
+margin-left: 600px;
+margin-top: 50px;
+position: absolute;
+}
