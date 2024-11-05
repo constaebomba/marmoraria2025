@@ -151,4 +151,9 @@ font-size: 17px;
     }
         
 
-    
+    .textos{
+        color: #000;
+        font-size: 5px;
+        display: inline-flex;
+        gap: 4rem;
+        }

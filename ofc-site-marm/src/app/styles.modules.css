@@ -15,3 +15,9 @@ height: auto;
     align-items: center;
 }
 
+.textos{
+    color: #000;
+    font-size: 50px;
+    display: inline-flex;
+    gap: 4rem;
+    }

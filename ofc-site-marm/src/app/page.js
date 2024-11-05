@@ -23,11 +23,17 @@ export default function Home() {
 <main className="rowller">
   <img src="/back-premium.png" alt="desc" className="back-premium"></img>
   <div className="photos4">
-          <img src="/row-1.png" alt="desc" className="row-1"></img>  
-          <img src="/row-2.png" alt="desc" className="row-2"></img>  
-          <img src="/row-3.png" alt="desc" className="row-3"></img>  
+          <img src="/row-1.png" alt="desc" className="row-1"></img> 
+          <img src="/row-2.png" alt="desc" className="row-2"></img> 
+          <img src="/row-3.png" alt="desc" className="row-3"></img> 
           <img src="/row-4.png" alt="desc" className="row-4"></img>  
   </div>         
+  <div className="textos">
+  <h1 className="text">cozinhas</h1>
+  <h1 className="text">cozinhas</h1>
+  <h1 className="text">cozinhas</h1>
+  <h1 className="text">cozinhas</h1>
+  </div>
 </main>
 
   <div>
