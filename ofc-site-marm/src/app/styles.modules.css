@@ -1,0 +1,17 @@
+.back-premium{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: auto;
+    opacity: 50%;
+}
+
+.rowller{
+    background-image: url(/ofc-site-marm/public/back-premium.png);
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -14,15 +14,19 @@
 body{
 margin: 0;
 padding: 0;
-background-image:url('./img/back.marm.jpg');
 }
 
 .head{
-padding: 80px 20px;
+display: flex;
+padding: 60px 10px;
 background-color: var(--gray3);
 align-items: center;
 justify-content: center;
-display: flex;
+transition: 0.5s;
+}
+
+.head:hover{
+    transform: scale(1.01); 
 
 }
 
@@ -61,33 +65,90 @@ font-size: 17px;
 }
 
 .btn:hover{
-    padding: 15px 55px;
+    padding: 20px 75px;
 
 }
 
-.back-marm{
-}
+    .row-1{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+        transition: 0.5s;
+        border-radius: 15px;
 
-.logo-marm{
-opacity: 5%;
-margin-bottom: -50px;
-margin-top: -50px;
 
     }
 
-.corpo{
-align-items: center;
-justify-content: center;
-display: flex;
-opacity: 0.9;
+    .row-1:hover{
+        filter: brightness(65%); 
+        border-radius: 55px;
+        transform: scale(1.08); 
+    }
+   
+    .row-2{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+        transition: 0.5s;
+        border-radius: 15px;
 
-}    
+    }
 
-.back-marm{
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.9;
+    .row-2:hover{
+        filter: brightness(65%); 
+        border-radius: 55px;
+        transform: scale(1.08); 
+    }
+    .row-3{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+        transition: 0.5s;
+        border-radius: 15px;
+
+    } 
+    .row-3:hover{
+        filter: brightness(65%); 
+        border-radius: 55px;
+        transform: scale(1.08); 
+    }
     
-}
+    .row-4{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+        transition: 0.5s;
+        border-radius: 15px;
+    }
+    .row-4:hover{
+        filter: brightness(65%); 
+        border-radius: 55px;
+        transform: scale(1.08); 
+    }
+
+
+    .photos4{
+        padding: 1px 1px;
+        background-color: #66666649;
+        position: sticky;
+        top: 390; /* Fica fixo no topo quando atingir esse ponto */
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position:absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
+        
+
+    
