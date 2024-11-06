@@ -86,56 +86,11 @@ font-size: 17px;
         border-radius: 55px;
         transform: scale(1.08); 
     }
-   
-    .row-2{
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        width: 350px;
-        height: 350px;
-        transition: 0.5s;
-        border-radius: 15px;
 
-    }
-
-    .row-2:hover{
-        filter: brightness(65%); 
-        border-radius: 55px;
-        transform: scale(1.08); 
-    }
-    .row-3{
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        width: 350px;
-        height: 350px;
-        transition: 0.5s;
-        border-radius: 15px;
-
-    } 
-    .row-3:hover{
-        filter: brightness(65%); 
-        border-radius: 55px;
-        transform: scale(1.08); 
-    }
-    
-    .row-4{
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        width: 350px;
-        height: 350px;
-        transition: 0.5s;
-        border-radius: 15px;
-    }
-    .row-4:hover{
-        filter: brightness(65%); 
-        border-radius: 55px;
-        transform: scale(1.08); 
-    }
 
 
     .photos4{
+        font-family: 'Alegreya', sans-serif;
         padding: 1px 1px;
         background-color: #66666649;
         position: sticky;
@@ -149,11 +104,145 @@ font-size: 17px;
         align-items: center;
         gap: 4rem;
     }
-        
+    .texto1 {
+        padding: 5px 15px;
+        background-color: var(--gray1);
+        top: -47px;
+        position: absolute;
+        color: #ffffff;
+        font-size: 20px;
+        margin-left: -1225px;
+    }
 
-    .textos{
-        color: #000;
-        font-size: 5px;
-        display: inline-flex;
-        gap: 4rem;
-        }
+    .texto2 {
+        padding: 5px 15px;
+        background-color: var(--gray1);
+        top: -47px;
+        position: absolute;
+        color: #ffffff;
+        font-size: 20px;
+        margin-left: -400px;
+    }
+
+    .texto3 {
+        padding: 5px 15px;
+        background-color: var(--gray1);
+        top: -47px;
+        position: absolute;
+        color: #ffffff;
+        font-size: 20px;
+        margin-left: 400px;
+    }
+
+    .texto4 {
+        padding: 5px 15px;
+        background-color: var(--gray1);
+        top: -47px;
+        position: absolute;
+        color: #ffffff;
+        font-size: 20px;
+        margin-left: 1225px;
+    }
+
+    .meio-bglho{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 90px;
+        background-color: var(--gray0);
+        font-family: 'Alegreya', sans-serif;
+        padding: 1px 1px;
+        top: 1000; /* Fica fixo no topo quando atingir esse ponto */
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position:absolute;
+        margin-top: 60px;
+
+}
+
+    .text-sob{
+display: flex;
+justify-content: start;
+align-items: center;
+margin-top: 100;
+margin-bottom: 133px;
+position: absolute;
+font-size: 50px;
+width: 100%;
+height: auto;
+padding: 10px 90px;
+color: var(--white);
+background-color: var(--gray0);opacity: 0.5;;
+padding-bottom: 300px;
+padding-top: 50px;
+margin-left: 250px;
+padding-left: 200px;
+}
+
+    .p-sob{
+
+display: flex;
+justify-content: start;
+align-items: center;
+margin-top: 50px;
+color: #ffffff;
+padding: 40px 90px;
+padding-top: 0;
+width: 100%;
+position: absolute;
+font-size: 22px;
+margin-left: 250px;
+padding-left: 200px;
+    }
+
+
+.footeer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 190px;
+    color: var(--white);
+    background-color: var(--gray3);
+    font-family: 'Alegreya', sans-serif;
+    top: 1500; /* Fica fixo no topo quando atingir esse ponto */
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position:absolute;
+    margin-top: 60px;    
+ 
+}    
+
+.imagem-clicavel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1375px;
+    color: var(--black);
+    background-color: var(--gray0); opacity: 0.5;
+    width: 400px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+  }
+  
+  .imagem-clicavel img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Adiciona suavização no hover */
+  }
+  
+  .imagem-clicavel:hover img {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  }
+  
+  .imagem-clicavel a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none; /* Remove o sublinhado do link */
+  }
