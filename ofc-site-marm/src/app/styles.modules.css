@@ -14,20 +14,3 @@ height: auto;
     justify-content: center;
     align-items: center;
 }
-
-.meio-bglho{
-    padding: 40px 90px;
-    background-color: var(--gray0);
-    padding: 1px 1px;
-    position: sticky;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    position:absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
-
-}
