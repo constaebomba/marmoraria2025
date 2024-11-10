@@ -10,12 +10,22 @@
 --gray1:#a6a6a6;
 --gray0:#c8c8c8;
 --white:#ffffff;
+--blue:#31357e;
+}
+
+*{
+  box-sizing: border-box;
 }
 
 body{
 margin: 0;
 padding: 0;
 }
+
+a{
+  text-decoration: none;
+}
+
 
 /* cabeçalho incio*/
 
@@ -25,7 +35,7 @@ padding: 0;
   align-items: center;      /* Centraliza os itens verticalmente */
   padding: 15px 5vw;        /* Usa '5vw' para o padding, tornando-o proporcional à largura da tela */
   background-color: var(--white);
-  gap: 4rem;                /* Espaço entre os itens */
+  gap: 3rem;                /* Espaço entre os itens */
   position: relative;
   width: 100%;              /* Garante que a barra ocupe 100% da largura */
   box-sizing: border-box;   /* Inclui o padding no cálculo da largura total */
@@ -38,10 +48,16 @@ padding: 0;
 }
 
 .logo {
-  margin-left: -100px;
-  margin-right: 250px;
+  margin-left: -330px;
+  margin-right: 90px;
   width: 140px;             /* Tamanho fixo para a logo */
   height: auto;
+  transition: 0.5s;
+}
+
+.logo:hover{
+transform: scale(1.05);
+
 }
 
 .text-barra {
@@ -52,15 +68,21 @@ padding: 0;
   font-size: 30px;
   opacity: 0.5;
   font-family: 'Poppins', sans-serif;
-  margin-left: -110px;           /* Removi margens fixas que causavam o deslocamento */
-  margin-right: 50;          /* Removi margens fixas */
+  margin-left: 0px;           /* Removi margens fixas que causavam o deslocamento */
+  margin-right: 90;          /* Removi margens fixas */
+  transition: 0.5s;
+}
+
+.text-barra:hover{
+transform: scale(1.05);
+
 }
 
 .buttons {
   display: flex;
   justify-content: center;  /* Centraliza os botões horizontalmente */
   align-items: center;      /* Centraliza os botões verticalmente */
-  gap: -1rem;                /* Espaçamento entre os botões */
+  margin-right: -150px;
 }
 
 .btn {
@@ -68,23 +90,23 @@ padding: 0;
   background-color: var(--white);
   border-radius: 20px;
   border: none;
-  padding: 10px 20px;
+  padding: 5px 5px;
   font-family: 'Alegreya', sans-serif;
   font-weight: 400;
   font-size: 14px;
   transition: 0.4s;
-  margin-right: 2px;
+  margin-right: 25px;
   transition: 0.5s;
 }
 
 .btn:hover {
 color: var(--gray4);
-padding: 5px 30px;
+transform: scale(1.1);
 }
 
 .button-whatsapp{
-  background-color: var(--gray2);
-  color: var(--white);
+background-color: var(--gray2);
+color: var(--white);
 border: none;
 border-radius: 30px;
 padding: 5px 15px;
@@ -96,7 +118,7 @@ font-family: 'Poppins', sans-serif;
 
 .button-whatsapp:hover{
 background-color: var(--gray4);
-
+transform: scale(1.1);
 }
 
 .showroom{
@@ -108,7 +130,8 @@ align-items: center;
 
 .showroom-foto{
 width: 100%;
-height: auto;display: flex;
+height: auto;
+display: flex;
 position: sticky;
 }
 
@@ -116,8 +139,10 @@ position: sticky;
 /* 3 botões inicio*/
 
 .threebts{
-  padding: 50px 220px;
-  background-color: rgb(245, 245, 245);
+padding: 50px 220px;
+background-color: rgb(245, 245, 245);
+width: 100%;
+height: auto;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -210,15 +235,17 @@ background-color: #ffffff;
     display: grid;
     justify-content: center;
     align-items: center;
-    margin-left: 790px;
-    margin-top: -560px;
+    text-align: left;
+    margin-left: 690px;
+    margin-top: -380px;
     }
     
     .escrita-1{
+      line-height: 1.1;
     display: flex;
     justify-content: start;
     align-items: center;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     margin-bottom: -12px;
@@ -229,7 +256,7 @@ background-color: #ffffff;
       display: flex;
       justify-content: start;
       align-items: center;
-      font-size: 22px;
+      font-size: 20px;
       font-family: 'Poppins', sans-serif;
       font-weight: 500;
       margin-bottom: 6px;
@@ -240,7 +267,7 @@ background-color: #ffffff;
       display: flex;
       justify-content: start;
       align-items: center;
-      font-size: 15px;
+      font-size: 12px;
       font-family: 'Poppins', sans-serif;
       font-weight: 500;
       padding: 4px 0px;
@@ -257,12 +284,12 @@ background-color: #ffffff;
   justify-content: center;
   display: grid;
   place-items: center;
-  width: 550px;
+  width: 440px;
   height: auto;
-  padding: 0;
   position:static;
   margin-left: 190px;
-margin-bottom: 50px;
+margin-bottom: 10px;
+padding-top: 10px;
 }
 
 .imagem-clicavel img {
@@ -291,6 +318,8 @@ border-radius: 20px;
 .visita{
 background-color: rgb(245, 245, 245);
   padding: 20px 10px;
+  padding-top: 100px;
+  padding-bottom: 35px;
   margin-top: 60px;
   margin-bottom: 0px;
     width: 100%;
@@ -305,13 +334,13 @@ background-color: rgb(245, 245, 245);
     justify-content: center;
     display: grid;
     place-items: center;
-    width: 550px;
+    width: 425px;
     height: auto;
     padding: 0;
-    margin-left: 1000px;
-  margin-bottom: 50px;
-  padding-top: 90px;
-  padding-bottom: 40px;
+    margin-left: 700px;
+    margin-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 10px;
   }
 
   .visitas-text{
@@ -319,16 +348,17 @@ background-color: rgb(245, 245, 245);
     display: grid;
     justify-content: center;
     align-items: center;
-    margin-left: -120px;
-    margin-top: -610px;
+    text-align: left;
+    margin-left: -150px;
+    margin-top: -455px;
 
   }
 
   .visita-1{
     display: flex;
-    justify-content: start;
+    justify-content: end;
     align-items: center;
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     margin-bottom: -12px;
@@ -338,23 +368,25 @@ background-color: rgb(245, 245, 245);
     
     .visita-2{
       display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 22px;
+      justify-content: start;
+      align-items: end;
+      font-size: 20px;
       font-family: 'Poppins', sans-serif;
       font-weight: 500;
       margin-bottom: 6px;
       color: var(--gray2);
-      margin-left: -380px;
+      margin-left: -330px;
     }
     
     .visita-3{
 display: grid;
 justify-content: center;
 align-items: center;
-padding: 2px 2px;
+padding: 5px;
+width: 190%;
 margin: 0;
-margin-left: -340px;
+margin-left: -330px;
+margin-top: 10px;
 border: none;
 background-color: var(--gray0);
 font-size: 15px;
@@ -371,18 +403,123 @@ transform: scale(1.05);
 
 /*visitas fim*/
 /*footer incio*/
-.footer-barra{
-display: flex;
-padding: 20px 100px;
+
+.footer{
+display: grid;
+margin: 0;
+padding: 0;
+width: 100%;
+height: auto;
+}
+
+.footer-inicio{
+padding: 10px 120px;
 background-color: var(--gray1);
 }
 
-.footer-text{
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 90px 110px;
+
+.footer-barra{
+  display: flex;
+padding: 5px 120px;
+margin-left: 0;
+margin-right: 0;
+margin: 0;
 background-color: var(--gray2);
-color: var(--white);
+}
+
+.footer-text{
+  padding: 15px 120px;
+  display:flex;
+  justify-content:center;
+  align-items: start;
+  text-align: center;
+  color: var(--white);
+  gap: 4rem;
+  font-family: 'Poppins' , sans-serif;
+  width: 100%;
+  height: auto;
+}
+
+
+.text-f{
+  display: grid;
+  justify-content: start;
+  align-items: center;
+  flex: 1;
+background-color: hsla(0, 0%, 100%, 0.015);
+}
+  
+  .f-f{
+    text-align: start;
+display: inline;
+margin-top: 30px;
+font-family: 'Poppins', sans-serif;
+font-weight: 400;  
+font-size: 20px;
+text-align: start;
+margin-left: 0;
+}
+
+.f-f1{
+  margin-left: 0;
+  margin-top: 1px;
+text-align: start;
+line-height: 1.2;
+font-weight: 300;
+font-size: 16px;
+}
+
+.f-f2{
+margin-top: 1px;
+text-align: start;
+line-height: 1.2;
+font-weight: 300;
+font-size: 16px;
+}
+
+.f-f3{
+margin-top: 10px;
+text-align: start;
+line-height: 5px;
+font-weight: 300;
+font-size: 16px;
+margin-left: 0;
+}
+
+.footer-fim{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0px 120px;
+  background-color: var(--gray3);
+  }
+
+  .desenvolvido{
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 200;
+    margin: 10;
+    font-size: 15px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desenvolvido1{
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 300;
+    margin: 2;
+    font-size: 16px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin-left: -4px;
+  }
+
+.sobre-empresa{
+background-color: var(--gray0);
+padding: 150px 120px;
 
 }
