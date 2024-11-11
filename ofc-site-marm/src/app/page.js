@@ -19,7 +19,7 @@ export default function Home() {
       <Link href={'./empresa'} className="link-sobre"><button className="btn">EMPRESA</button></Link>
       <Link href={'./materiais'} className="link-serviços"><button className="btn">MATERIAIS</button></Link>
       <Link href={'./trabalhos'} className="link-trabalhos"><button className="btn">TRABALHOS</button></Link>
-      <Link href={'./Parceiros'} className="link-parceiros"><button className="btn">PARCEIROS</button></Link>
+      <Link href={'./parceiros'} className="link-parceiros"><button className="btn">PARCEIROS</button></Link>
       <Link href={'./contatos'} className="link-contatos"><button className="btn">CONTATOS</button></Link>
       <Link href=" https://whatsapp.com/dl/."><button className="button-whatsapp">WhatsApp</button></Link>
       </div>

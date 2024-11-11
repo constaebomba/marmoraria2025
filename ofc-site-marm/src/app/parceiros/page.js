@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from 'next/image';
 
 export default function Home() {
     return (
@@ -19,6 +20,14 @@ export default function Home() {
       <Link href=" https://whatsapp.com/dl/."><button className="button-whatsapp">WhatsApp</button></Link>
       </div>
     </div>
+
+<div className='fotos-parceiros'>
+<img src="logo.jpeg" className="coco"></img>
+</div> 
+
+
+
+
 
 
     <div className="footer">
@@ -58,5 +67,5 @@ export default function Home() {
 
 
     </section>
-    )
+    );
 }
