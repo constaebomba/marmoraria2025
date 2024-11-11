@@ -26,16 +26,14 @@ a{
   text-decoration: none;
 }
 
-
 /* cabeçalho incio*/
 
 .barra {
   display: flex;
   justify-content: center;  /* Centraliza os itens horizontalmente */
   align-items: center;      /* Centraliza os itens verticalmente */
-  padding: 15px 5vw;        /* Usa '5vw' para o padding, tornando-o proporcional à largura da tela */
+  padding: 10px 5vw;        /* Usa '5vw' para o padding, tornando-o proporcional à largura da tela */
   background-color: var(--white);
-  gap: 3rem;                /* Espaço entre os itens */
   position: relative;
   width: 100%;              /* Garante que a barra ocupe 100% da largura */
   box-sizing: border-box;   /* Inclui o padding no cálculo da largura total */
@@ -48,8 +46,8 @@ a{
 }
 
 .logo {
-  margin-left: -330px;
-  margin-right: 90px;
+  margin-left: -530px;
+  margin-right: 410px;
   width: 140px;             /* Tamanho fixo para a logo */
   height: auto;
   transition: 0.5s;
@@ -65,12 +63,14 @@ transform: scale(1.05);
   justify-content: center;  /* Centraliza o texto horizontalmente */
   align-items: center;      /* Centraliza o texto verticalmente */
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
   opacity: 0.5;
   font-family: 'Poppins', sans-serif;
-  margin-left: 0px;           /* Removi margens fixas que causavam o deslocamento */
-  margin-right: 90;          /* Removi margens fixas */
+  margin-left: -240px;           /* Removi margens fixas que causavam o deslocamento */
+  margin-right: 160px;          /* Removi margens fixas */
   transition: 0.5s;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .text-barra:hover{
@@ -82,7 +82,9 @@ transform: scale(1.05);
   display: flex;
   justify-content: center;  /* Centraliza os botões horizontalmente */
   align-items: center;      /* Centraliza os botões verticalmente */
-  margin-right: -150px;
+  margin-right: -300px;
+  gap: 1rem;
+
 }
 
 .btn {
@@ -90,19 +92,14 @@ transform: scale(1.05);
   background-color: var(--white);
   border-radius: 20px;
   border: none;
-  padding: 5px 5px;
+  padding: 15px 5px;
   font-family: 'Alegreya', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  transition: 0.4s;
-  margin-right: 25px;
   transition: 0.5s;
 }
 
-.btn:hover {
-color: var(--gray4);
-transform: scale(1.1);
-}
+
 
 .button-whatsapp{
 background-color: var(--gray2);
@@ -151,6 +148,7 @@ gap: 2rem;
 }
 
 .icones{
+  font-family: 'Poppins' , sans-serif;
   padding: 130px 130px;
   background-color: rgb(240, 240, 240);
 align-items: center;
@@ -189,6 +187,7 @@ margin-top: -60px;
   align-items: center;
   margin-bottom: 20px;
   font-size: 30px;
+  font-weight: 700;
 }
 
 .a2{
@@ -199,20 +198,23 @@ margin-top: -60px;
   justify-content: center;
   align-items: center;
   margin-bottom: 60px;
-margin-top: -20px;
+margin-top: -30px;
 font-size: 17px;
 }
 
 .a3{
-  color: var(--gray4);
+  color: var(--gray2);
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: -70px;
-  margin-top: -70px;
+  margin-top: -40px;
   font-size: 20px;
+  line-height: 22px;
+text-align: center;
+font-weight: 500;
 }
 
 /*3 botões fim*/
@@ -236,7 +238,7 @@ background-color: #ffffff;
     justify-content: center;
     align-items: center;
     text-align: left;
-    margin-left: 690px;
+    margin-left: 890px;
     margin-top: -380px;
     }
     
@@ -280,6 +282,7 @@ background-color: #ffffff;
     }
 
 .imagem-clicavel {
+
   align-items: center;
   justify-content: center;
   display: grid;
@@ -287,7 +290,7 @@ background-color: #ffffff;
   width: 440px;
   height: auto;
   position:static;
-  margin-left: 190px;
+  margin-left: 355px;
 margin-bottom: 10px;
 padding-top: 10px;
 }
@@ -341,6 +344,7 @@ background-color: rgb(245, 245, 245);
     margin-bottom: 50px;
     padding-top: 0px;
     padding-bottom: 10px;
+    box-shadow: 5px 5px 25px 3px rgba(0, 0, 0, 0.4); /* Sombra */
   }
 
   .visitas-text{
@@ -523,3 +527,164 @@ background-color: var(--gray0);
 padding: 150px 120px;
 
 }
+
+/*contatos page inicio*/
+/*contatos page inicio*/
+/*contatos page inicio*/
+/*contatos page inicio*/
+/*contatos page inicio*/
+
+
+
+.foto-contatos{
+padding: 0;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.foto-ctt{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+width: 100%;
+  height: auto;
+position: sticky;
+}
+
+.text-ft{
+  color: var(--white); opacity: 90%;;
+  font-size: 55px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;  
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto */
+}
+
+.redes-ctt{
+  width: 100%;
+  height: auto;
+display:flex;
+justify-content: center;
+align-items: start;
+flex: 1;
+padding-bottom: 80px;
+margin-left: 45px;
+margin-top: 10px;
+gap: 5rem;
+font-family: 'Poppins', sans-serif;
+background-color: var(--white);
+}
+
+.text-cttt{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 60px;
+margin-bottom: 60px;
+padding: 1px 400px;
+background-color: rgba(128, 128, 128, 0.018);
+}
+
+
+.entre-ctt{
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Poppins' , sans-serif;
+font-weight: 600;
+font-size: 40px;
+margin: 10;
+}
+
+
+.email-ctt{
+display: grid;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 20px 90px;
+background-color: rgba(128, 128, 128, 0.135);
+}
+
+.telefone-ctt{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 90px;
+  background-color: rgba(128, 128, 128, 0.135);
+
+}
+
+.midias-ctt{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 90px;
+  background-color: rgba(128, 128, 128, 0.135);
+
+}
+
+.title-ctt{
+font-weight: 500;
+
+}
+
+.email-btn{
+border: none;
+padding: 0;
+background-color: rgba(128, 128, 128, 0.135);
+font-weight: 400;
+}
+
+.icon-ctt1{
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: auto;
+  margin-bottom: -75px;
+  padding: 1px 1px;
+
+}
+
+.icon-ctt2{
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: auto;
+  margin-right: 160px;
+  margin-bottom: -75px;
+  padding: 1px 1px;
+
+}
+
+.icon-ctt3{
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: auto;
+  margin-right: 220px;
+  margin-bottom: -75px;
+  padding: 1px 1px;
+
+}
+
+/*contatos page fim*/
+/*contatos page fim*/
+/*contatos page fim*/
+/*contatos page fim*/
+/*contatos page fim*/
+
+
