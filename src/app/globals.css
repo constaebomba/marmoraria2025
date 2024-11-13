@@ -48,8 +48,8 @@ a{
 }
 
 .logo {
-  margin-left: -530px;
-  margin-right: 410px;
+  margin-left: -430px;
+  margin-right: 310px;
   width: 140px;             /* Tamanho fixo para a logo */
   height: auto;
   transition: 0.5s;
